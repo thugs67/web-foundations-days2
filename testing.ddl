@@ -1,0 +1,2 @@
+CREATE USER quicknotes_user IDENTIFIED BY YourSecurePassword;
+GRANT CONNECT, RESOURCE, UNLIMITED TABLESPACE TO quicknotes_user;
